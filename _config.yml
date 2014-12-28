@@ -1,17 +1,19 @@
 menu:
-  Home: /
-  Archives: /archives
-  About : /about
+  首页: /
+  归档: /archives
+  关于: /about
+  
 
 widgets:
 - search
 - category
 - tagcloud
-- weibo
 - blogroll
 
-
 excerpt_link: Read More
+
+plugins:
+- hexo-generator-feed
 
 twitter:
   username:
@@ -28,13 +30,5 @@ addthis:
 
 fancybox: true
 
-google_analytics:
-rss:
-
-comment_provider: facebook
-# Facebook comment
-facebook:
-  appid: 123456789012345
-  comment_count: 5
-  comment_width: 840
-  comment_colorscheme: light
+google_analytics: UA-41207871-1
+rss: http://silvasong.com/atom.xml

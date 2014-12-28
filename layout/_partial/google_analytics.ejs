@@ -1,10 +1,12 @@
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ffe3814b5f53cc394a493cbeb2368f2af' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
 <% if (theme.google_analytics){ %>
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '<%= theme.google_analytics %>']);
-  <% if (theme.google_analytics_domain){ %>
-  _gaq.push(['_setDomainName', '<%= theme.google_analytics_domain %>']);
-  <% } %>
   _gaq.push(['_trackPageview']);
 
   (function() {
